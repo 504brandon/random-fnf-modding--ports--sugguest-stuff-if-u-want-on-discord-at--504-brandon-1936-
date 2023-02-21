@@ -1,0 +1,57 @@
+var bg;
+var trainSound;
+var debug;
+
+function start(song) {
+    gf.visible = false;
+    
+    setDefaultZoom(0.6);
+
+    boyfriend.y += 210;
+    boyfriend.x += 520;
+
+    dad.y += 210;
+
+    bg = new MetroSprite(0, 0, true);
+    bg.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'defeat.png', hscriptPath + 'defeat.xml');	
+    bg.animation.addByPrefix('idle', 'defeat', 24, false);
+	bg.setGraphicSize(Std.int(bg.width * 3));
+	bg.antialiasing = true;
+	bg.scrollFactor.set(1, 1);
+	bg.active = true;
+	addSprite(bg, BEHIND_ALL);
+
+    vinebooms = new FlxSound().loadEmbedded(hscriptPath + 'vineboom.ogg');
+    FlxG.sound.list.add(vinebooms);
+}
+
+function update(elapsed) {
+    if (FlxG.keys.justPressed.F1)
+        debug = true;
+
+    if (debug) {
+        iconP1.angle -= 158 * elapsed / 30;
+        iconP2.angle += 158 * elapsed / 30;
+        dad.angle += 158 * elapsed / 30;
+        boyfriend.angle -= 158 * elapsed / 30;
+    }
+}
+
+function beatHit(beat) {
+    bg.dance();
+}
+
+function playerTwoSing() {
+    if (debug) {
+        var vineboom = new MetroSprite(0, 0, false);
+        vineboom.loadGraphic(hscriptPath + 'vineboom.png');	
+        vineboom.screenCenter();
+        vineboom.camera = camHUD;
+        addSprite(vineboom, BEHIND_ALL);
+
+        vineboom.alpha = 1;
+        FlxTween.tween(vineboom, {alpha: 0.0001}, 1);
+
+        vinebooms.play(true);
+    }
+}

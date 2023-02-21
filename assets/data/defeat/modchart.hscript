@@ -1,0 +1,13 @@
+function start(song) {
+}
+
+function update(elapsed) {
+    if (PlayState.misses > 5)
+        health = -1;
+
+    healthBar.alpha = 0;
+    healthBarBG.alpha = 0;
+}
+
+function playerTwoSing() {
+}
