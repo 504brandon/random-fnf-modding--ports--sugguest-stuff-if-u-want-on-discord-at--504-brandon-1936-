@@ -3,27 +3,27 @@ function init(char) {
     trace(": )");
     var tex = FlxAtlasFrames.fromSparrow(hscriptPath + 'char.png', hscriptPath + 'char.xml');
     char.frames = tex;
-    char.animation.addByPrefix('idle', 'black idle remast', 24, false);
+    char.animation.addByPrefix('omg-it-impoter-blak', 'black idle remast', 24, false);
     char.animation.addByPrefix('singUP', 'black up', 24, false);
     char.animation.addByPrefix('singLEFT','black left', 24, false);
     char.animation.addByPrefix('singRIGHT', 'black right', 24, false);
     char.animation.addByPrefix('singDOWN', 'black down', 24, false);
     trace("finish anim");
 
-    char.addOffset('idle', 0, 0);
+    char.addOffset('omg-it-impoter-blak', 0, 0);
     char.addOffset('singUP', 244, 100);
     char.addOffset('singRIGHT', 20, -83);
     char.addOffset('singLEFT', 193, -56);
     char.addOffset('singDOWN', 220, 232);
 
-    char.playAnim('idle');
+    char.playAnim('omg-it-impoter-blak');
 
     char.flipX = false;
 
     char.enemyOffsetX = 0;
     char.enemyOffsetY = 32;
     char.playerOffsetX = 0;
-    char.playerOffsetY = -54;
+    char.playerOffsetY = -210;
     char.followCamX = -19;
     char.followCamY = -100;
     char.midpointX = 0;
@@ -38,6 +38,6 @@ function update(elapsed, char) {
 var danced = false;
 function dance(char) {
     trace(": )");
-    char.playAnim('idle');
+    char.playAnim('omg-it-impoter-blak');
 }
 trace("done");

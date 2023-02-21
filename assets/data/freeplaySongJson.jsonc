@@ -3,135 +3,160 @@
          "songs" : [
              {
                  "week" : 0
-                ,"character" : "gf"
                 ,"name" : "Tutorial"
+                ,"character" : "gf"
             }
             ,{
                  "week" : 1
-                ,"character" : "dad"
                 ,"name" : "Bopeebo"
+                ,"character" : "dad"
             }
             ,{
                  "week" : 1
-                ,"character" : "dad"
                 ,"name" : "Fresh"
+                ,"character" : "dad"
             }
             ,{
                  "week" : 1
-                ,"character" : "dad"
                 ,"name" : "Dadbattle"
+                ,"character" : "dad"
             }
             ,{
                  "week" : 2
-                ,"character" : "spooky"
                 ,"name" : "Spookeez"
-            }
-            ,{
-                 "week" : 2
                 ,"character" : "spooky"
-                ,"name" : "South"
             }
             ,{
                  "week" : 2
-                ,"character" : "monster"
+                ,"name" : "South"
+                ,"character" : "spooky"
+            }
+            ,{
+                 "week" : 2
                 ,"name" : "Monster"
+                ,"character" : "monster"
             }
             ,{
                  "week" : 3
-                ,"character" : "pico"
                 ,"name" : "Pico"
+                ,"character" : "pico"
             }
             ,{
                  "week" : 3
-                ,"character" : "pico"
                 ,"name" : "Philly"
+                ,"character" : "pico"
             }
             ,{
                  "week" : 3
-                ,"character" : "pico"
                 ,"name" : "Blammed"
+                ,"character" : "pico"
             }
             ,{
                  "week" : 4
-                ,"character" : "mom"
                 ,"name" : "Satin-Panties"
+                ,"character" : "mom"
             }
             ,{
                  "week" : 4
-                ,"character" : "mom"
                 ,"name" : "High"
+                ,"character" : "mom"
             }
             ,{
                  "week" : 4
-                ,"character" : "mom"
                 ,"name" : "Milf"
+                ,"character" : "mom"
             }
             ,{
                  "week" : 5
-                ,"character" : "parents-christmas"
                 ,"name" : "Cocoa"
-            }
-            ,{
-                 "week" : 5
                 ,"character" : "parents-christmas"
-                ,"name" : "Eggnog"
             }
             ,{
                  "week" : 5
-                ,"character" : "monster-christmas"
+                ,"name" : "Eggnog"
+                ,"character" : "parents-christmas"
+            }
+            ,{
+                 "week" : 5
                 ,"name" : "Winter-Horrorland"
+                ,"character" : "monster-christmas"
             }
             ,{
                  "week" : 6
-                ,"character" : "senpai"
                 ,"name" : "Senpai"
+                ,"character" : "senpai"
             }
             ,{
                  "week" : 6
-                ,"character" : "senpai-angry"
                 ,"name" : "Roses"
+                ,"character" : "senpai-angry"
             }
             ,{
                  "week" : 6
-                ,"character" : "spirit"
                 ,"name" : "Thorns"
+                ,"character" : "spirit"
             }
             ,{
                  "week" : 7
-                ,"character" : "tankman"
                 ,"name" : "Ugh"
+                ,"character" : "tankman"
             }
             ,{
                  "week" : 7
-                ,"character" : "tankman"
                 ,"name" : "Guns"
+                ,"character" : "tankman"
             }
             ,{
                  "week" : 7
-                ,"character" : "tankman"
                 ,"name" : "Stress"
+                ,"character" : "tankman"
             }
             ,{
                  "week" : 6
-                ,"character" : "face"
                 ,"name" : "Test"
+                ,"character" : "face"
             }
         ]
         ,"name" : "Base Game"
-    },
-    {
+    }
+    ,{
          "songs" : [
              {
                  "week" : 0
-                ,"character" : "black"
                 ,"name" : "Defeat"
-            },
-            {
+                ,"character" : "black"
+            }
+            ,{
                  "week" : 0
-                ,"character" : "dad"
                 ,"name" : "Triple-trouble"
+                ,"character" : "dad"
             }
         ]
         ,"name" : "Vs Imposter"
+    }
+    ,{
+         "songs" : [
+             {
+                 "week" : 0
+                ,"name" : "Lo-fight"
+                ,"character" : "whitty"
+            }
+            ,{
+                 "week" : 0
+                ,"name" : "Overhead"
+                ,"character" : "whitty"
+            }
+            ,{
+                 "week" : 0
+                ,"name" : "ballistic"
+                ,"character" : "whittyMad"
+            }
+            ,{
+                 "character" : "whittyMad"
+                ,"name" : "ballistic-old"
+                ,"week" : 0
+            }
+        ]
+        ,"name" : "Vs Whitty"
     }
 ]
