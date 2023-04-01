@@ -158,5 +158,15 @@
     "like": "whittyMad",
     "icons": [0, 1, 2],
     "colors": ["#CE002C"]
+  },
+  "gf-rip": {
+    "like": "gf-tankmen",
+    "icons": [0, 0, 1],
+    "colors": ["#EE19D9"]
+  },
+  "tankman-rip": {
+    "like": "tankman",
+    "icons": [0, 1, 2],
+    "colors": ["#F9B03A"]
   }
 }
