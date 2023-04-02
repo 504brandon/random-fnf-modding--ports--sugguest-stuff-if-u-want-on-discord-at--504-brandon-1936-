@@ -29,7 +29,7 @@ function stepHit(step)
 
 function playerTwoTurn()
 {
-    setDefaultZoom(1.2);
+    setDefaultZoom(1.02);
 }
 
 function playerOneTurn()

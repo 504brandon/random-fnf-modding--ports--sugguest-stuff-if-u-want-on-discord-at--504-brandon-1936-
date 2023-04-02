@@ -1,12 +1,11 @@
 function start(song) {
+    //currentPlayState.switchCharacter();
+    swapChar('dad', 'bf');
 }
 
 function update(elapsed) {
-    if (PlayState.misses > 5)
-        health = -1;
-
-    healthBar.alpha = 0;
-    healthBarBG.alpha = 0;
+    //FlxG.sound.music.time += elapsed * 4 * 100;
+    //currentPlayState.vocals.time += elapsed * 4 * 100;
 }
 
 function playerTwoSing() {

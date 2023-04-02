@@ -1,0 +1,38 @@
+var blackness;
+var didathing;
+var howManyMissesAreAllowed;
+
+function start(song) {
+    blackness = new FlxSprite(0, 0).makeGraphic(FlxG.width, FlxG.height, 0xFF0d0d0d);
+    blackness.screenCenter();
+    blackness.updateHitbox();
+    blackness.camera = camHUD;
+    add(blackness);
+}
+
+function update(elapsed) {
+    /*if (FlxG.keys.pressed.LEFT && !didathing){
+       howManyMissesAreAllowed -= 1;
+       FlxG.game.stage.window.alert(howManyMissesAreAllowed);
+    }
+
+    if (FlxG.keys.pressed.RIGHT && !didathing){
+        howManyMissesAreAllowed += 1;
+        FlxG.game.stage.window.alert(howManyMissesAreAllowed);
+    }
+
+    if (howManyMissesAreAllowed > 5)
+        howManyMissesAreAllowed = 0;
+
+    if (howManyMissesAreAllowed < 0)
+        howManyMissesAreAllowed = 5;*/
+
+    if (FlxG.keys.pressed.ENTER && !didathing){
+        currentPlayState.startCountdown();
+        blackness.kill();
+        didathing = true;
+    }
+
+    if (PlayState.misses > 5)
+        health = -100;
+}
